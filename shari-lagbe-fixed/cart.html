@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart — Shari Lagbe?</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header id="header">
+      <a href="index.html"><img src="image/logo.png" class="logo" alt="" width="120"></a>
+    
+
+    <section id="header">
+
+    <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="wishlist.html" aria-label="Wishlist"><i class="fa-regular fa-heart"></i><span class="wish-count">0</span></a></li>
+        <li><a class="active" href="cart.html" aria-label="Cart"><i class="fa-solid fa-cart-shopping"></i><span class="cart-count">0</span></a></li>
+    </ul>
+
+    <button id="mobile-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+</header>
+
+<div class="page-header">
+    <p class="eyebrow">Cart</p>
+    <h1>Your bag</h1>
+    <p class="breadcrumb"><a href="index.html">Home</a> / Cart</p>
+</div>
+
+<main>
+    <section class="block">
+        <div class="container cart-layout">
+
+            <div class="cart-table" data-cart-items>
+                <!-- Filled by script.js from localStorage -->
+            </div>
+
+            <aside class="summary">
+                <h3>Order summary</h3>
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span data-subtotal>৳0</span>
+                </div>
+                <div class="summary-row">
+                    <span>Shipping</span>
+                    <span data-shipping>৳0</span>
+                </div>
+                <div class="promo-row">
+                    <input type="text" placeholder="Promo code" aria-label="Promo code">
+                    <button class="btn btn-outline" type="button">Apply</button>
+                </div>
+                <div class="summary-row total">
+                    <span>Total</span>
+                    <span data-total>৳0</span>
+                </div>
+                <button class="btn btn-primary" type="button">Proceed to checkout</button>
+                <p style="font-size:12px;color:var(--ink-soft);margin-top:14px;text-align:center;">
+                    Free shipping on orders over ৳3,500
+                </p>
+            </aside>
+
+        </div>
+    </section>
+</main>
+
+<footer id="footer">
+    <div class="container footer-inner">
+        <div class="footer-brand">
+            <a href="index.html"><img src="image/logo.png" class="logo" alt="" width="120"></a>
+            <p>Handloom sarees sourced directly from weavers in Tangail, Bangladesh — delivered nationwide.</p>
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h4>Shop</h4>
+            <ul>
+                <li><a href="shop.html">Jamdani</a></li>
+                <li><a href="shop.html">Cotton Tangail</a></li>
+                <li><a href="shop.html">Katan Silk</a></li>
+                <li><a href="shop.html">Half-Silk</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="about.html">Our story</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Support</h4>
+            <ul>
+                <li><a href="contact.html">Shipping</a></li>
+                <li><a href="contact.html">Returns</a></li>
+                <li><a href="contact.html">FAQ</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container footer-bottom">
+        <span>© 2024 Shari Lagbe?. Made in Tangail, Bangladesh.</span>
+        <span>Student portfolio project — not a live store.</span>
+    </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>

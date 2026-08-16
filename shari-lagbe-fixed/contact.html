@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Shari Lagbe?</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header id="header">
+    <a href="index.html"><img src="image/logo.png" class="logo" alt="" width="120"></a>
+
+    <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+        <li><a href="wishlist.html" aria-label="Wishlist"><i class="fa-regular fa-heart"></i><span class="wish-count">0</span></a></li>
+        <li><a href="cart.html" aria-label="Cart"><i class="fa-solid fa-cart-shopping"></i><span class="cart-count">0</span></a></li>
+    </ul>
+
+    <button id="mobile-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+</header>
+
+<div class="page-header">
+    <p class="eyebrow">Get in touch</p>
+    <h1>We'd like to hear from you</h1>
+    <p class="breadcrumb"><a href="index.html">Home</a> / Contact</p>
+</div>
+
+<main>
+    <section class="block">
+        <div class="container contact-layout">
+
+            <form class="contact-form">
+                <div class="field">
+                    <label for="name">Full name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="field">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="field">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Order question, weaver partnership, other...">
+                </div>
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send message</button>
+            </form>
+
+            <div>
+                <div class="contact-info-card">
+                    <h3>Reach us directly</h3>
+                    <div class="contact-info-row">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Tangail Sadar, Tangail District, Bangladesh</span>
+                    </div>
+                    <div class="contact-info-row">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+880 1XXX-XXXXXX</span>
+                    </div>
+                    <div class="contact-info-row">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>hello@sharilagbe.example</span>
+                    </div>
+                    <div class="contact-info-row">
+                        <i class="fa-solid fa-clock"></i>
+                        <span>Sat – Thu, 10am – 7pm</span>
+                    </div>
+                    <div class="map-frame" aria-hidden="true"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="paar" aria-hidden="true"></div>
+
+    <section class="block">
+        <div class="container" style="max-width:720px;">
+            <div class="section-head" style="justify-content:center;text-align:center;flex-direction:column;align-items:center;">
+                <p class="eyebrow">FAQ</p>
+                <h2>Common questions</h2>
+            </div>
+
+            <details class="faq-item" open>
+                <summary>How long does delivery take?</summary>
+                <p>Most in-stock sarees ship within 2–3 days. Made-to-order Jamdani pieces can take 2–4 weeks since they're woven after you order.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Can I return a saree if it doesn't suit me?</summary>
+                <p>Yes — unworn sarees with tags attached can be returned within 7 days of delivery for a full refund.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Do you ship outside Bangladesh?</summary>
+                <p>Not yet. Right now we deliver nationwide within Bangladesh only, with plans to expand shipping later.</p>
+            </details>
+            <details class="faq-item">
+                <summary>How do I know the saree is genuinely handloom?</summary>
+                <p>Every listing names the weaving village and family. We visit each workshop ourselves before listing their work.</p>
+            </details>
+        </div>
+    </section>
+</main>
+
+<footer id="footer">
+    <div class="container footer-inner">
+        <div class="footer-brand">
+           <a href="index.html"><img src="image/logo.png" class="logo" alt="" width="120"></a>
+            <p>Handloom sarees sourced directly from weavers in Tangail, Bangladesh — delivered nationwide.</p>
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h4>Shop</h4>
+            <ul>
+                <li><a href="shop.html">Jamdani</a></li>
+                <li><a href="shop.html">Cotton Tangail</a></li>
+                <li><a href="shop.html">Katan Silk</a></li>
+                <li><a href="shop.html">Half-Silk</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="about.html">Our story</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Support</h4>
+            <ul>
+                <li><a href="contact.html">Shipping</a></li>
+                <li><a href="contact.html">Returns</a></li>
+                <li><a href="contact.html">FAQ</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container footer-bottom">
+        <span>© 2024 Shari Lagbe?. Made in Tangail, Bangladesh.</span>
+        <span>Student portfolio project — not a live store.</span>
+    </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
